@@ -8,3 +8,4 @@ pip install cloudinary
 ```
 
 - Update the configuration in the routes.py file to your details
+- Run your flask program
