@@ -9,7 +9,6 @@ cloudinary.config(
     api_key=f"{os.getenv('CLOUDINARY_API_KEY')}",
     api_secret=f"{os.getenv('CLOUDINARY_API_SECRET')}",
     api_env=f"{os.getenv('CLOUDINARY_URL')}"
-    # api_proxy = "http://proxy.server:9999"
 )
 
 import cloudinary.uploader
