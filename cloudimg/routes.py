@@ -2,6 +2,7 @@ from flask import render_template, request, redirect, url_for
 from cloudimg import app, db
 from .models import Create
 import cloudinary
+from flask_ckeditor import CKEditor
 import os
 
 cloudinary.config(
@@ -14,7 +15,7 @@ cloudinary.config(
 import cloudinary.uploader
 import cloudinary.api
 
-
+ckeditor = CKEditor()
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
 @app.route("/", methods=["GET", "POST"])
