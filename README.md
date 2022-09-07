@@ -1,4 +1,4 @@
-# cloudinary-upload and ckeditor
+# cloudinary-upload and rich text editor (flask ckeditor)
 This project is about how to upload multiple static files/images to cloudinary, and display in your html file. Using flask, cloudinary package and sqlite.
 
 ## How to run program
